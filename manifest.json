@@ -1,6 +1,6 @@
 {
-    "short_name": "6ft3",
-    "name": "6ft3",
+    "short_name": "Makima",
+    "name": "Makima.in",
     "icons": [
         {
             "src": "./anikatsu.png",
@@ -13,5 +13,5 @@
     "display": "standalone",
     "scope": "/",
     "theme_color": "#ef547a",
-    "description": "6ft3 - Official AniKatsu #1 Watch High Quality Anime Online Without Ads. You can watch anime online free in HD without Ads. Best place for free find and one-click anime."
+    "description": "Makima.in - Official #1 Watch High Quality Anime Online Without Ads. You can watch anime online free in HD without Ads. Best place for free find and one-click anime."
 }

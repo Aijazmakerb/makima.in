@@ -214,7 +214,7 @@
         <div class="header-group">
             <div class="zoro-group">
                 <div class="zrg-title"><span class="top">Join now</span><span class="bottom">
-                        <?= $websiteTitle ?> Groups
+                        Makima
                     </span></div>
                 <div class="zrg-list">
                     <div class="item"><a target="_blank" href="<?= $websiteUrl ?>/donate"

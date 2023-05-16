@@ -51,7 +51,7 @@ if(!isset($_GET['page'])){
     <link rel="apple-touch-icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>?v=<?=$version?>" />
     <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/style.css?v=<?=$version?>">
 
-    <link rel="stylesheet" href="<?=$websiteUrl?>/files/css/min.css?v=<?=$version?>?v=<?=$version?>">
+    <link rel="shortcut icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>" type="image/x-icon">
     <script type="text/javascript">
     setTimeout(function() {
         var wpse326013 = document.createElement('link');

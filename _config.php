@@ -2,7 +2,7 @@
 $conn = mysqli_connect("localhost", 'root' , '', "6ft3") or die("Connection fail");
 
 
-$websiteTitle = "6ft3"; // Website Name
+$websiteTitle = "Makima.in"; // Website Name
 $websiteUrl = "//{$_SERVER['SERVER_NAME']}";  // Website URL
 $websiteLogo = $websiteUrl . "/files/images/logo.png"; // Logo
 $contactEmail = "786aijazusmaan@gmail.com"; // Contact Email
@@ -24,7 +24,7 @@ $disqus = "https://indianime.disqus.com"; // Disqus
 
 
 // API URL
-$api = "http://localhost:3000";
+$api = "https://makima-api.vercel.app";
 
 
 $banner = $websiteUrl . "/files/images/banner.png";  //Banner

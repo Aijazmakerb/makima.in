@@ -141,7 +141,7 @@ if (isset($_COOKIE['userID'])) {
         type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         type="text/css">
-    <link rel="shortcut icon" href="<?= $websiteUrl ?>/favicon.ico?v=<?= $version ?>" type="image/x-icon">
+        <link rel="shortcut icon" href="<?=$websiteUrl?>/favicon.ico?v=<?=$version?>" type="image/x-icon">
     <link rel="apple-touch-icon" href="<?= $websiteUrl ?>/favicon.ico?v=<?= $version ?>" />
     <link rel="stylesheet" href="<?= $websiteUrl ?>/files/css/style.css?v=<?= $version ?>">
     <link rel="stylesheet" href="<?= $websiteUrl ?>/files/css/min.css?v=<?= $version ?>">
