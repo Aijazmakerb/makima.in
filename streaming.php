@@ -24,7 +24,7 @@ if (end($slug) == 'dub') {
 $getEpisode = file_get_contents("$api/getEpisode/$url");
 $getEpisode = json_decode($getEpisode, true);
 if (isset($getEpisode['error'])) {
-    header('Location: https://anikatsu.me/home');
+    header('Location: http://makimaa.infinityfreeapp.com/home');
 }
 ;
 
@@ -52,7 +52,7 @@ if (empty($counter)) {
 
 $anime = $getEpisode['anime_info'];
 $EPISODE_NUMBER = $getEpisode['ep_num'];
-$download = str_replace("Gogoanime", "$websiteTitle", $getEpisode['ep_download']);
+$download = $getEpisode['ep_download'];
 
 $streamingID = $download;
 $streamingID = parse_url($streamingID);
@@ -204,7 +204,7 @@ if (isset($_COOKIE['userID'])) {
                                         </div>
                                         <!---recommended to use Anikatsu Servers only ---->
                                         <iframe name="iframe-to-load"
-                                            src="https://player.anikatsu.me/index.php?id=<?= $url ?>" frameborder="0"
+                                            src="http://makima-player.infinityfreeapp.com/?id=<?= $url ?>" frameborder="0"
                                             scrolling="no"
                                             allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
                                             allowfullscreen="true" webkitallowfullscreen="true"
@@ -267,13 +267,13 @@ if (isset($_COOKIE['userID'])) {
                                             <div class="ps__-title"><i class="fas fa-server mr-2"></i>SERVERS:</div>
                                             <div class="ps__-list">
                                                 <div class="item">
-                                                    <a id="server1" href="https://player.anikatsu.me?id=<?= $url ?>"
+                                                    <a id="server1" href="http://makima-player.infinityfreeapp.com/?id=<?= $url ?>"
                                                         target="iframe-to-load" class="btn btn-server active">Server
                                                         1</a>
                                                 </div>
                                                 <div class="item">
                                                     <a id="server2"
-                                                        href="https://player.anikatsu.me/v2.php?id=<?= $url ?>"
+                                                        href="https://player.anikatsu.me/index.php?id=<?= $url ?>"
                                                         target="iframe-to-load" class="btn btn-server">Server 2</a>
                                                 </div>
                                             </div>
