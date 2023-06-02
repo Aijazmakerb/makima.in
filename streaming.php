@@ -204,7 +204,7 @@ if (isset($_COOKIE['userID'])) {
                                         </div>
                                         <!---recommended to use Anikatsu Servers only ---->
                                         <iframe name="iframe-to-load"
-                                            src="http://makima-player.infinityfreeapp.com/?id=<?= $url ?>" frameborder="0"
+                                            src="https://makima-player.vercel.app/?id=<?= $url ?>" frameborder="0"
                                             scrolling="no"
                                             allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
                                             allowfullscreen="true" webkitallowfullscreen="true"
@@ -267,13 +267,13 @@ if (isset($_COOKIE['userID'])) {
                                             <div class="ps__-title"><i class="fas fa-server mr-2"></i>SERVERS:</div>
                                             <div class="ps__-list">
                                                 <div class="item">
-                                                    <a id="server1" href="http://makima-player.infinityfreeapp.com/?id=<?= $url ?>"
+                                                    <a id="server1" href="https://makima-player.vercel.app/?id=<?= $url ?>"
                                                         target="iframe-to-load" class="btn btn-server active">Server
                                                         1</a>
                                                 </div>
                                                 <div class="item">
                                                     <a id="server2"
-                                                        href="https://player.anikatsu.me/index.php?id=<?= $url ?>"
+                                                        href="https://player.anikatsu.me/?id=<?= $url ?>"
                                                         target="iframe-to-load" class="btn btn-server">Server 2</a>
                                                 </div>
                                             </div>
